@@ -1,0 +1,76 @@
+---
+title: "Carts and Code"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+---
+
+# Introduction{#intro}
+This is an indroduction
+
+Second footer [^2]
+
+[^2]:Footnote and fancy
+
+## Font Formatting
+**bold text**
+
+14 m^2^ s^-1^ H~2~O
+
+`this is code` [^1]
+
+[Google](http://google.com)
+
+This is a link to the [introduction](#intro)
+
+
+
+[^1]:This is my first footnote
+
+# Lists
+
+1. a
+2. b
+
+- Item a
+- Item b
+
+- [ ]
+- [x]
+
+![image](https://images-na.ssl-images-amazon.com/images/I/710Q8R6qpbL._AC_SL1500_.jpg)
+
+## Tables
+
+Tablemaking
+
+| -
+
+| Name | Species| Origin|
+|------|--------|-------|
+| Fred | Cow 1  | India |
+| Other| Animal | Russia|
+
+- |
+
+> Important point
+
+Don't go chasing waterfalls
+
+Highlighting code:
+
+Use ```single backticks``` to hilite
+
+
+```{r}
+x <- 75*8
+x*9
+```
+
+```{r}
+download.file(url="https://raw.githubusercontent.com/cambiotraining/reproducibility-training/master/data/gapminder_data.csv", destfile="data/gapminder_data.csv")
+```
+
+
